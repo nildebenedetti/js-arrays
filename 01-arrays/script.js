@@ -15,7 +15,12 @@ const fourthTeacher = teachers[3];
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
-      /*===== PROCESSO =====*/
+teachers[4] = 'Patrick';
+console.log(teachers[4]);
+
+/*==== oppure alternativa overcomplicata da vedere con Samuel
+
+      /*===== PROCESSO =====
        // creo variabile appoggio al valore indexOf(Carlo)
           // SE !== -1
               // ALLORA splice: vado a indexCarlo, cancello carlo, sostituisco con Patrick
@@ -27,7 +32,7 @@ if (indexCarlo !== -1) {
   teachers.splice(indexCarlo, 1, "Patrick")
 }
 
-console.log(teachers);
+console.log(teachers); */
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
