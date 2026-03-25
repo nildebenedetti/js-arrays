@@ -15,12 +15,10 @@ const fourthTeacher = teachers[3];
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
-
-   //teachers[4], stampo valore
-       //variabile appoggio al valore indexOf(Carlo
+      /*===== PROCESSO =====*/
+       // creo variabile appoggio al valore indexOf(Carlo)
           // SE !== -1
               // ALLORA splice: vado a indexCarlo, cancello carlo, sostituisco con Patrick
-        
 
 
 let indexCarlo = teachers.indexOf("Carlo");
