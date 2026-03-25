@@ -36,14 +36,21 @@ const lastTeacher = teachers.pop();
 const firstTeacher = teachers.shift();
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");
+console.log(teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+teachers.unshift("Sarah")
+console.log(teachers);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf("Lewis");
+console.log(lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = (teachers.length === 0) ? 'yes': 'no';
+console.log(isTeachersEmpty);
+
 
