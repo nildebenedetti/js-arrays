@@ -36,12 +36,15 @@ for (i = 0; i < teachers.length; i++) {  // scorri tutto l'array (for) MI RACCOM
 }
  console.log(longNames);
 
-
-
-  
-        //push to array
-
 // 3. Rimuovi 'Ed' dall'array teachers
+
+let indexEd = teachers.indexOf("Ed");
+
+if (indexEd !== -1) {
+  teachers.splice(indexEd, 1)
+}
+
+console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
